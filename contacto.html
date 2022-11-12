@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="img/palomitas.png" rel="shortcut icon">
+
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/slider.js"></script>
+    <title>+Pelis</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <nav class="menu">
+            <div class="logo">
+                <a href="index.html"><img src="img/logo3.png" alt="logo"></a>
+            </div>
+            <ul>
+                <li class="menu-btn"><a href="index.html"><img src="img/carrete-de-pelicula.png">INICIO</a></li>
+                <li class="menu-btn container-submenu"><a href="#"><img src="img/pelicula-3d.png">GÉNEROS</a>
+                    <ul class="submenu">
+                        <li class="submenu-item"><a href="accion.html" class="submenu-enlace">Acción</a></li>
+                        <li class="submenu-item"><a href="cienciaficcion.html" class="submenu-enlace">Ciencia
+                                Ficción</a></li>
+                        <li class="submenu-item"><a href="terror.html" class="submenu-enlace">Terror</a></li>
+                    </ul>
+                </li>
+                <li class="menu-btn"><a href="nosotros.html"><img src="img/entrada-de-cine.png">NOSOTROS</a></li>
+                <li class="menu-btn"><a href="contacto.html"><img src="img/llamada-telefonica.png">CONTACTO</a></li>
+            </ul>
+        </nav>
+        <div class="content-nosotros">
+            <div class="content-contacto">
+                <div class="img">
+                    <a href="index.html"><img src="img/logo3.png"></a>
+                </div>
+                <h2 id="title">Nos interesa tu opinión</h2>
+                <div class="formulario">
+                    <form action="#" method=POST onkeyup="able()">
+                        <ul>
+                            <li>
+                                <label for="name" id="name">Nombre: </label>
+                                <input type="text" id="nombre" placeholder="Escribe tu nombre" />
+                            </li>
+                            <li>
+                                <label for="email" id="email">Correo electrónico: </label>
+                                <input type="email" id="correo" placeholder="usuario@dominio" />
+                            </li>
+                            <li>
+                                <label for="message" id="msg">Mensaje:</label>
+                                <input type="textarea" id="mensaje" placeholder="Dejanos tu mensaje">
+                            </li>
+                        </ul>
+
+                        <input type="submit" value="Enviar" id="enviar" disabled="disabled">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <nav class="footer">
+                <div class="logo">
+                    <a href="index.html"><img src="img/logo3.png" alt="logo"></a>
+                </div>
+                <a href="index.html" id="inicio">
+                    <h2>Volver al inicio</h2>
+                </a>
+                <div class="developer">
+                    <h2>Desarrollado por: &copy;Victor Ruelas 2022</h2>
+                </div>
+            </nav>
+        </footer>
+</body>
+
+</html>
